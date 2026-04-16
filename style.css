@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    background-color: #000000;
+}
+
+/* CONTENEDOR */
+#main {
+    width: 900px;
+    margin: auto;
+    background: rgb(2, 224, 187);
+    padding: 10px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title img {
+    width: 50px;
+}
+
+#title h1 {
+    display: inline;
+}
+
+/* MENU */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* BANNER */
+#banner {
+    background-image: url("LM\LM3.webp");
+    height: 150px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: end;
+    padding: 10px;
+}
+
+/* CONTENIDO */
+section {
+    display: flex;
+    margin-top: 20px;
+}
+
+article {
+    width: 65%;
+}
+
+aside {
+    width: 30%;
+    margin-left: 5%;
+    background: #9e1a7f;
+    padding: 10px;
+}
+aside img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

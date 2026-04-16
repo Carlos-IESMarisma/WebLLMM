@@ -1,14 +1,16 @@
 body {
     font-family: Arial;
-    background-color: #000000;
+    background-color: #0f172a;
+    color: #e2e8f0; 
 }
 
 /* CONTENEDOR */
 #main {
     width: 900px;
     margin: auto;
-    background: rgb(2, 224, 187);
+    background: #1e293b;
     padding: 10px;
+    border-radius: 10px;
 }
 
 /* HEADER */
@@ -24,6 +26,7 @@ header {
 
 #title h1 {
     display: inline;
+    color: #22c55e;
 }
 
 /* MENU */
@@ -38,21 +41,22 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #e2e8f0;
 }
 
 nav a:hover {
-    color: red;
+    color: #38bdf8; 
 }
 
 /* BANNER */
 #banner {
-    background-image: url("LM\LM3.webp");
+    background-image: url("LM/LM3.webp");
     height: 150px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     display: flex;
     align-items: end;
     padding: 10px;
+    border-radius: 10px;
 }
 
 /* CONTENIDO */
@@ -68,18 +72,20 @@ article {
 aside {
     width: 30%;
     margin-left: 5%;
-    background: #9e1a7f;
+    background: #1e293b; 
     padding: 10px;
+    border-radius: 10px;
 }
-aside img{
+
+aside img {
     width: 250px;
     height: auto;
     border-radius: 10px;
 }
 
-
 /* FOOTER */
 footer {
     text-align: center;
     margin-top: 20px;
+    color: #94a3b8; 
 }
